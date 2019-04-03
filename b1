@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <title>Css Exercise</title>
+  <style type="text/css">
+    .head{ text-align: right;
+      background-color:#a8f0ef;
+      color: #238793;
+      margin-right: 10px;
+      overflow: hidden;}
+      .head h2,.head p{
+   text-align: right;
+   margin-right: 10px;
+}
+.head p{margin-top: -20px;}
+
+    .container{margin: auto;
+      width: 78%;
+      overflow: hidden;}
+
+      article{background-color: #9AE0E0;
+   float: left;
+   width: 15%;
+   border-radius: 20px;
+   border: 5px solid #038F97;
+   margin-top: 10px;}
+   ul{list-style-type: #11908c circle; 
+      list-style: #11908c;
+      color: #559093;}
+      h3 {margin-left: 20px; font-size: 26px; color: #048f96;}
+
+        .one{margin-top: 10px;
+          color: #599ea8;
+          background-color: #e8fafa;
+          border: 3px solid #c7e6e8;
+          border-radius: 20px;
+          margin-left: 180px;
+          height: 200px; }
+          .two{margin-top: 10px;
+          color: #599ea8;
+          background-color: #e8fafa;
+          border: 3px solid #c7e6e8;
+          border-radius: 20px; 
+          margin-left: 180px;
+          height: 250px;}
+          .one p,.two p{font-size: 20px;
+            padding-left: 8px; 
+            width: 75%;}
+span{border-bottom: dashed;}
+.two img{
+   width: 23%;
+   float: right;
+   padding-right: 8px;
+   margin-top: -200px ;
+}
+.one img{
+  height: 80%;
+  margin-top: -100px;
+  float: right;
+  width: 23%;
+}
+
+h2 {padding-left: 8px;}
+
+  </style>
+
+
+
+
+</html>
+<body>
+  <div class="container">
+    <div class="head">
+      <h2>Victorias Journal</h2>
+      <p>So Fresh and So Clean</p>
+    </div>
+    <article>
+       <h3>Friends</h3>
+       <ul>
+         <li>190m Budiies</li>
+         <li>Big Will</li>
+         <li>Conan The Librarian</li>
+       
+       </ul>
+    </article>
+    <aside class="one">
+      <h2><span>04/09/08:</span>Spatulas</h2> 
+      <p>Yesterday i went to the store and got so much-needed spatulas! (what better way to say i love myself than to buy myself a spatula?) </p>
+      <img src="https://images.homedepot-static.com/productImages/ef51296e-cbbb-449e-a5dc-9c7962e864d0/svn/spatulas-9081-64_1000.jpg">
+    </aside>
+    <aside class="two">
+      <h2><span>04/08/08:</span>Cookie Monster Cupcakes</h2> 
+      <p>My favourite cartoon charachter is Cookie Monster,and my favourite cake is Cupcake,so cookie monster Cupcakes are the best of both worlds.</p>
+      <p>Did you know?Cookie Monster once said,<q>Sometimes me think what is love ,and then me think love is what last cookie is for me. me give up the last cookie for you.</q>
+      <q>I wonder if the same applied for Cupcakes?( If so i dont think i can ever love ANYONE)</q></p>
+      <img src="https://www.bbcgoodfood.com/sites/default/files/user-recipe/Cookie%20monsters_4.JPG">
+    </aside>
+  </div>
+   
+
+
+</body>
